@@ -1,0 +1,166 @@
+.radar-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(ellipse at center, rgba(0, 245, 255, 0.03) 0%, transparent 70%);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.radar-svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.radar-sweep {
+  animation: sweep-rotate 4s linear infinite;
+}
+
+@keyframes sweep-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.ring-labels {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.ring-label {
+  position: absolute;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: rgba(0, 245, 255, 0.4);
+  transform: translateX(-50%);
+}
+
+.radar-device {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.device-icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10, 22, 40, 0.9);
+  border: 2px solid var(--status-color);
+  border-radius: 8px;
+  color: var(--status-color);
+  box-shadow: 0 0 10px rgba(0, 245, 255, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease;
+}
+
+.radar-device:hover .device-icon,
+.radar-device.selected .device-icon {
+  background: rgba(0, 245, 255, 0.15);
+  box-shadow: 0 0 20px var(--status-color), inset 0 0 15px rgba(0, 245, 255, 0.1);
+}
+
+.radar-device.selected .device-icon {
+  transform: scale(1.1);
+}
+
+.radar-device.status-online { --status-color: #00ff88; }
+.radar-device.status-offline { --status-color: #ff4757; }
+.radar-device.status-unknown { --status-color: #ffa502; }
+
+.device-pulse {
+  position: absolute;
+  inset: 0;
+  border: 2px solid var(--status-color);
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.device-tooltip {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(10, 22, 40, 0.95);
+  border: 1px solid rgba(0, 245, 255, 0.3);
+  border-radius: 6px;
+  padding: 6px 10px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease;
+  pointer-events: none;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.device-tooltip::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: rgba(0, 245, 255, 0.3);
+}
+
+.radar-device:hover .device-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.tooltip-ip {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: #00f5ff;
+  font-weight: 600;
+}
+
+.tooltip-hostname {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.scanning-indicator {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(0, 245, 255, 0.1);
+  border: 1px solid rgba(0, 245, 255, 0.3);
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: #00f5ff;
+  letter-spacing: 2px;
+}
+
+.scanning-indicator .pulse {
+  width: 8px;
+  height: 8px;
+  background: #00f5ff;
+  border-radius: 50%;
+  animation: pulse-scan 1s infinite;
+}
+
+@keyframes pulse-scan {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.5); }
+}

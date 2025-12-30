@@ -2,109 +2,195 @@
 
 <div align="center">
 
+![FastAPI](https://img.shields.io/badge/FastAPI-0.109-009688?logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-18.2-61DAFB?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.2-3178C6?logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?logo=vite&logoColor=white)
+![Scapy](https://img.shields.io/badge/Scapy-2.5-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**Visualizador de rede local em tempo real com interface estilo radar.**
-
-[Funcionalidades](#funcionalidades) •
-[Instalação](#instalação) •
-[Uso](#uso) •
-[Estrutura](#estrutura) •
-[Roadmap](#roadmap)
+**Ferramenta de monitoramento de rede local em tempo real com interface estilo radar.**
 
 </div>
 
 ---
 
-## Funcionalidades
+## Preview
 
-- **Radar interativo** — Visualização animada com sweep e dispositivos posicionados por tipo
-- **Descoberta de dispositivos** — Exibe IP, MAC, hostname, fabricante e portas abertas
-- **Filtros e busca** — Filtre por status (online/offline) ou busque por qualquer campo
-- **Tempo real** — Atualização automática do status dos dispositivos
-- **Responsivo** — Funciona em desktop, tablet e mobile
+O Network Radar escaneia sua rede local usando ARP e exibe os dispositivos encontrados em uma interface visual interativa com animação de radar.
 
-## Instalação
+### Funcionalidades
 
-```bash
-# Clonar repositório
-git clone https://github.com/seu-usuario/network-radar.git
-cd network-radar
+- **Descoberta automática** — Detecta dispositivos na rede via ARP scan
+- **Ping sweep** — Acorda dispositivos dormindo (celulares, IoT) antes do scan
+- **Identificação de fabricante** — Resolve MAC address para vendor (Apple, Samsung, etc)
+- **Port scanning** — Detecta portas abertas e serviços
+- **Tempo real** — Atualização via WebSocket
+- **Interface interativa** — Radar animado com filtros e busca
 
-# Instalar dependências
-npm install
-
-# Rodar em desenvolvimento
-npm run dev
-```
-
-Acesse `http://localhost:5173`
-
-## Uso
-
-A aplicação inicia com dados mockados para demonstração. O backend com scanner real será implementado na próxima fase.
-
-**Interações:**
-- Clique em um dispositivo no radar ou na lista para ver detalhes
-- Use a barra de busca para filtrar dispositivos
-- Clique no ícone de filtro para opções avançadas
-- Botão "Novo Scan" simula uma nova varredura
+---
 
 ## Estrutura
 
 ```
-src/
-├── components/
-│   ├── Radar/
-│   │   ├── RadarCanvas.tsx    # SVG do radar com animação
-│   │   └── RadarDevice.tsx    # Ícone de cada dispositivo
-│   ├── DeviceList/
-│   │   ├── DeviceList.tsx     # Lista com filtros
-│   │   └── DeviceCard.tsx     # Card expandível
-│   └── Layout/
-│       └── Dashboard.tsx      # Layout principal
-├── hooks/
-│   └── useNetworkData.ts      # Estado e mock data
-├── types/
-│   └── network.ts             # Interfaces TypeScript
-├── utils/
-│   └── positioning.ts         # Cálculo de posições
-└── index.css                  # Estilos globais
+Network Radar/
+├── network-radar-frontend/     # React + TypeScript + Vite
+│   ├── src/
+│   │   ├── components/         # Radar, DeviceList, Dashboard
+│   │   ├── hooks/              # useNetworkData (WebSocket)
+│   │   ├── types/              # TypeScript interfaces
+│   │   └── utils/              # Positioning, helpers
+│   └── package.json
+│
+├── network-radar-backend/      # FastAPI + Scapy
+│   ├── app/
+│   │   ├── main.py             # API endpoints
+│   │   ├── models.py           # Pydantic schemas
+│   │   ├── websocket.py        # Connection manager
+│   │   └── scanner/            # ARP, ports, OUI
+│   ├── data/
+│   │   └── oui.txt             # MAC vendor database
+│   └── requirements.txt
+│
+└── README.md
 ```
+
+---
+
+## Requisitos
+
+- **Node.js** 18+
+- **Python** 3.11+
+- **Npcap** (Windows) — https://npcap.com/#download
+- **Permissões de administrador** (para ARP scan)
+
+---
+
+## Instalação
+
+### Backend
+
+```bash
+cd network-radar-backend
+
+# Criar ambiente virtual
+python -m venv venv
+
+# Ativar (Windows)
+venv\Scripts\activate
+
+# Ativar (Linux/Mac)
+source venv/bin/activate
+
+# Instalar dependências
+pip install -r requirements.txt
+```
+
+### Frontend
+
+```bash
+cd network-radar-frontend
+
+npm install
+```
+
+---
+
+## Executar
+
+### 1. Backend (como Administrador)
+
+```bash
+cd network-radar-backend
+venv\Scripts\activate
+python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+```
+
+### 2. Frontend
+
+```bash
+cd network-radar-frontend
+npm run dev
+```
+
+### 3. Acessar
+
+- **Frontend:** http://localhost:5173
+- **API:** http://localhost:8000
+- **Docs:** http://localhost:8000/docs
+
+---
+
+## API Endpoints
+
+| Método | Rota | Descrição |
+|--------|------|-----------|
+| GET | `/` | Status da API |
+| GET | `/api/network` | Info da rede local |
+| GET | `/api/devices` | Lista dispositivos |
+| GET | `/api/devices/{ip}` | Detalhes de um device |
+| POST | `/api/devices/{ip}/scan-ports` | Scan de portas |
+| POST | `/api/scan` | Iniciar scan |
+| GET | `/api/scan/status` | Status do scan |
+| WS | `/ws` | WebSocket |
+
+---
+
+## WebSocket Events
+
+### Servidor → Cliente
+
+```javascript
+{ type: "connected", data: {} }
+{ type: "scan_started", data: {} }
+{ type: "device_found", data: { ip, mac, vendor, ... } }
+{ type: "device_updated", data: { ip, status, ... } }
+{ type: "scan_completed", data: { devices, scan_duration } }
+```
+
+### Cliente → Servidor
+
+```
+ping    // responde com pong
+scan    // inicia novo scan
+```
+
+---
 
 ## Stack
 
-| Tecnologia | Uso |
-|------------|-----|
-| **React 18** | UI components |
-| **TypeScript** | Type safety |
-| **Vite** | Build tool |
-| **Framer Motion** | Animações |
-| **Lucide React** | Ícones |
+### Frontend
+- React 18
+- TypeScript
+- Vite
+- Framer Motion
+- Lucide Icons
+- WebSocket API
 
-## Roadmap
+### Backend
+- FastAPI
+- Scapy (ARP/ICMP)
+- Pydantic
+- Uvicorn
+- AsyncIO
 
-- [x] Interface do radar
-- [x] Lista de dispositivos
-- [x] Filtros e busca
-- [ ] Backend com FastAPI
-- [ ] Scanner ARP (Scapy)
-- [ ] Resolução de fabricante (OUI)
-- [ ] Port scanning
-- [ ] WebSocket para tempo real
-- [ ] Histórico de dispositivos
-- [ ] Exportar relatório
+---
 
-## Scripts
+## Notas
 
-```bash
-npm run dev      # Servidor de desenvolvimento
-npm run build    # Build de produção
-npm run preview  # Preview do build
-```
+### Windows
+- Instale o **Npcap** com "WinPcap API-compatible Mode"
+- Execute o backend como **Administrador**
+
+### MAC Randomizado
+Celulares modernos usam MAC aleatório por privacidade. Para ver o fabricante real, desative "Endereço Privado" nas configurações de Wi-Fi do dispositivo.
+
+### Dispositivos não aparecem?
+O ping sweep acorda dispositivos dormindo, mas alguns podem não responder. Tente:
+1. Desbloquear a tela do celular durante o scan
+2. Verificar se não há AP Isolation no roteador
+3. Confirmar que todos estão na mesma sub-rede
+
+---
 
 ## Licença
 

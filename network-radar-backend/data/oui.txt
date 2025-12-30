@@ -1,0 +1,551 @@
+00-00-0C   (hex)		Cisco Systems, Inc
+00-1A-2B   (hex)		Ayecom Technology Co., Ltd
+00-50-56   (hex)		VMware, Inc.
+00-0C-29   (hex)		VMware, Inc.
+00-15-5D   (hex)		Microsoft Corporation
+00-1C-42   (hex)		Parallels, Inc.
+08-00-27   (hex)		PCS Systemtechnik GmbH
+00-03-FF   (hex)		Microsoft Corporation
+00-17-88   (hex)		Philips Lighting BV
+00-1E-C2   (hex)		Apple, Inc.
+00-22-41   (hex)		Apple, Inc.
+00-23-12   (hex)		Apple, Inc.
+00-23-32   (hex)		Apple, Inc.
+00-23-6C   (hex)		Apple, Inc.
+00-23-DF   (hex)		Apple, Inc.
+00-24-36   (hex)		Apple, Inc.
+00-25-00   (hex)		Apple, Inc.
+00-25-4B   (hex)		Apple, Inc.
+00-25-BC   (hex)		Apple, Inc.
+00-26-08   (hex)		Apple, Inc.
+00-26-4A   (hex)		Apple, Inc.
+00-26-B0   (hex)		Apple, Inc.
+00-26-BB   (hex)		Apple, Inc.
+00-30-65   (hex)		Apple, Inc.
+00-3E-E1   (hex)		Apple, Inc.
+00-50-E4   (hex)		Apple, Inc.
+00-56-CD   (hex)		Apple, Inc.
+00-61-71   (hex)		Apple, Inc.
+00-6D-52   (hex)		Apple, Inc.
+00-88-65   (hex)		Apple, Inc.
+04-0C-CE   (hex)		Apple, Inc.
+04-15-52   (hex)		Apple, Inc.
+04-26-65   (hex)		Apple, Inc.
+04-48-9A   (hex)		Apple, Inc.
+04-4B-ED   (hex)		Apple, Inc.
+04-52-F3   (hex)		Apple, Inc.
+04-54-53   (hex)		Apple, Inc.
+04-69-F8   (hex)		Apple, Inc.
+04-D3-CF   (hex)		Apple, Inc.
+04-DB-56   (hex)		Apple, Inc.
+04-E5-36   (hex)		Apple, Inc.
+04-F1-3E   (hex)		Apple, Inc.
+04-F7-E4   (hex)		Apple, Inc.
+08-66-98   (hex)		Apple, Inc.
+08-70-45   (hex)		Apple, Inc.
+08-74-02   (hex)		Apple, Inc.
+A4-D1-8C   (hex)		Apple, Inc.
+AC-87-A3   (hex)		Apple, Inc.
+B8-17-C2   (hex)		Apple, Inc.
+B8-27-EB   (hex)		Raspberry Pi Foundation
+DC-A6-32   (hex)		Raspberry Pi Foundation
+E4-5F-01   (hex)		Raspberry Pi Foundation
+28-CD-C1   (hex)		Raspberry Pi Foundation
+2C-CF-67   (hex)		Raspberry Pi Foundation
+D8-3A-DD   (hex)		Raspberry Pi Foundation
+00-14-22   (hex)		Dell Inc.
+00-15-C5   (hex)		Dell Inc.
+00-18-8B   (hex)		Dell Inc.
+00-19-B9   (hex)		Dell Inc.
+00-1A-A0   (hex)		Dell Inc.
+00-1C-23   (hex)		Dell Inc.
+00-1D-09   (hex)		Dell Inc.
+00-1E-4F   (hex)		Dell Inc.
+00-1E-C9   (hex)		Dell Inc.
+00-21-9B   (hex)		Dell Inc.
+00-21-70   (hex)		Dell Inc.
+00-22-19   (hex)		Dell Inc.
+00-23-AE   (hex)		Dell Inc.
+00-24-E8   (hex)		Dell Inc.
+00-25-64   (hex)		Dell Inc.
+00-26-B9   (hex)		Dell Inc.
+14-FE-B5   (hex)		Dell Inc.
+18-03-73   (hex)		Dell Inc.
+18-66-DA   (hex)		Dell Inc.
+18-A9-9B   (hex)		Dell Inc.
+18-DB-F2   (hex)		Dell Inc.
+00-0D-56   (hex)		Dell Inc.
+00-17-A4   (hex)		Hewlett Packard
+00-1A-4B   (hex)		Hewlett Packard
+00-1B-78   (hex)		Hewlett Packard
+00-1C-C4   (hex)		Hewlett Packard
+00-1E-0B   (hex)		Hewlett Packard
+00-1F-29   (hex)		Hewlett Packard
+00-21-5A   (hex)		Hewlett Packard
+00-22-64   (hex)		Hewlett Packard
+00-23-7D   (hex)		Hewlett Packard
+00-24-81   (hex)		Hewlett Packard
+00-25-B3   (hex)		Hewlett Packard
+00-26-55   (hex)		Hewlett Packard
+00-30-6E   (hex)		Hewlett Packard
+3C-D9-2B   (hex)		Hewlett Packard
+94-57-A5   (hex)		Hewlett Packard
+A0-D3-C1   (hex)		Hewlett Packard
+B4-B5-2F   (hex)		Hewlett Packard
+D4-85-64   (hex)		Hewlett Packard
+D8-9D-67   (hex)		Hewlett Packard
+F4-CE-46   (hex)		Hewlett Packard
+00-1E-58   (hex)		D-Link Corporation
+00-22-B0   (hex)		D-Link Corporation
+00-26-5A   (hex)		D-Link Corporation
+1C-7E-E5   (hex)		D-Link International
+28-10-7B   (hex)		D-Link International
+84-C9-B2   (hex)		D-Link International
+B8-A3-86   (hex)		D-Link International
+C8-D3-A3   (hex)		D-Link International
+00-14-BF   (hex)		Cisco-Linksys, LLC
+00-18-39   (hex)		Cisco-Linksys, LLC
+00-1A-70   (hex)		Cisco-Linksys, LLC
+00-1C-10   (hex)		Cisco-Linksys, LLC
+00-1D-7E   (hex)		Cisco-Linksys, LLC
+00-1E-E5   (hex)		Cisco-Linksys, LLC
+00-21-29   (hex)		Cisco-Linksys, LLC
+00-22-6B   (hex)		Cisco-Linksys, LLC
+00-23-69   (hex)		Cisco-Linksys, LLC
+00-25-9C   (hex)		Cisco-Linksys, LLC
+08-86-3B   (hex)		Belkin International Inc.
+14-91-82   (hex)		Belkin International Inc.
+30-23-03   (hex)		Belkin International Inc.
+94-10-3E   (hex)		Belkin International Inc.
+B4-75-0E   (hex)		Belkin International Inc.
+C0-56-27   (hex)		Belkin International Inc.
+EC-1A-59   (hex)		Belkin International Inc.
+00-18-E7   (hex)		Cameo Communications, Inc.
+00-1D-0F   (hex)		TP-LINK Technologies Co., Ltd.
+00-23-CD   (hex)		TP-LINK Technologies Co., Ltd.
+00-27-19   (hex)		TP-LINK Technologies Co., Ltd.
+14-CC-20   (hex)		TP-LINK Technologies Co., Ltd.
+14-CF-92   (hex)		TP-LINK Technologies Co., Ltd.
+18-A6-F7   (hex)		TP-LINK Technologies Co., Ltd.
+1C-3B-F3   (hex)		TP-LINK Technologies Co., Ltd.
+30-B5-C2   (hex)		TP-LINK Technologies Co., Ltd.
+50-BD-5F   (hex)		TP-LINK Technologies Co., Ltd.
+54-E6-FC   (hex)		TP-LINK Technologies Co., Ltd.
+5C-89-9A   (hex)		TP-LINK Technologies Co., Ltd.
+60-E3-27   (hex)		TP-LINK Technologies Co., Ltd.
+64-56-01   (hex)		TP-LINK Technologies Co., Ltd.
+64-66-B3   (hex)		TP-LINK Technologies Co., Ltd.
+64-70-02   (hex)		TP-LINK Technologies Co., Ltd.
+6C-B0-CE   (hex)		TP-LINK Technologies Co., Ltd.
+78-44-76   (hex)		TP-LINK Technologies Co., Ltd.
+90-F6-52   (hex)		TP-LINK Technologies Co., Ltd.
+94-0C-6D   (hex)		TP-LINK Technologies Co., Ltd.
+A4-2B-B0   (hex)		TP-LINK Technologies Co., Ltd.
+B0-48-7A   (hex)		TP-LINK Technologies Co., Ltd.
+C0-25-E9   (hex)		TP-LINK Technologies Co., Ltd.
+C4-6E-1F   (hex)		TP-LINK Technologies Co., Ltd.
+C8-3A-35   (hex)		TP-LINK Technologies Co., Ltd.
+CC-32-E5   (hex)		TP-LINK Technologies Co., Ltd.
+D4-6E-0E   (hex)		TP-LINK Technologies Co., Ltd.
+D8-07-B6   (hex)		TP-LINK Technologies Co., Ltd.
+E8-94-F6   (hex)		TP-LINK Technologies Co., Ltd.
+EC-08-6B   (hex)		TP-LINK Technologies Co., Ltd.
+EC-17-2F   (hex)		TP-LINK Technologies Co., Ltd.
+F4-EC-38   (hex)		TP-LINK Technologies Co., Ltd.
+F8-1A-67   (hex)		TP-LINK Technologies Co., Ltd.
+08-57-00   (hex)		TP-LINK Technologies Co., Ltd.
+00-18-4D   (hex)		NETGEAR
+00-1B-2F   (hex)		NETGEAR
+00-1E-2A   (hex)		NETGEAR
+00-1F-33   (hex)		NETGEAR
+00-22-3F   (hex)		NETGEAR
+00-24-B2   (hex)		NETGEAR
+00-26-F2   (hex)		NETGEAR
+20-4E-7F   (hex)		NETGEAR
+30-46-9A   (hex)		NETGEAR
+44-94-FC   (hex)		NETGEAR
+6C-B0-CE   (hex)		NETGEAR
+84-1B-5E   (hex)		NETGEAR
+9C-D3-6D   (hex)		NETGEAR
+A0-21-B7   (hex)		NETGEAR
+A0-40-A0   (hex)		NETGEAR
+B0-39-56   (hex)		NETGEAR
+C0-3F-0E   (hex)		NETGEAR
+C4-04-15   (hex)		NETGEAR
+CC-40-D0   (hex)		NETGEAR
+E0-46-9A   (hex)		NETGEAR
+E0-91-F5   (hex)		NETGEAR
+E4-F4-C6   (hex)		NETGEAR
+00-1F-A4   (hex)		Shenzhen Gongjin Electronics Co.,Ltd
+00-26-18   (hex)		ASUSTek COMPUTER INC.
+00-E0-18   (hex)		ASUSTek COMPUTER INC.
+04-92-26   (hex)		ASUSTek COMPUTER INC.
+08-60-6E   (hex)		ASUSTek COMPUTER INC.
+10-7B-44   (hex)		ASUSTek COMPUTER INC.
+14-DA-E9   (hex)		ASUSTek COMPUTER INC.
+1C-87-2C   (hex)		ASUSTek COMPUTER INC.
+20-CF-30   (hex)		ASUSTek COMPUTER INC.
+2C-4D-54   (hex)		ASUSTek COMPUTER INC.
+2C-56-DC   (hex)		ASUSTek COMPUTER INC.
+30-5A-3A   (hex)		ASUSTek COMPUTER INC.
+30-85-A9   (hex)		ASUSTek COMPUTER INC.
+34-97-F6   (hex)		ASUSTek COMPUTER INC.
+38-D5-47   (hex)		ASUSTek COMPUTER INC.
+3C-97-0E   (hex)		ASUSTek COMPUTER INC.
+40-16-7E   (hex)		ASUSTek COMPUTER INC.
+48-5B-39   (hex)		ASUSTek COMPUTER INC.
+4C-ED-FB   (hex)		ASUSTek COMPUTER INC.
+54-04-A6   (hex)		ASUSTek COMPUTER INC.
+60-45-CB   (hex)		ASUSTek COMPUTER INC.
+74-D0-2B   (hex)		ASUSTek COMPUTER INC.
+00-1C-B3   (hex)		Apple, Inc.
+00-24-2B   (hex)		Hon Hai Precision Ind. Co.,Ltd.
+A0-AB-1B   (hex)		Samsung Electronics Co.,Ltd
+00-21-19   (hex)		Samsung Electronics Co.,Ltd
+00-23-D6   (hex)		Samsung Electronics Co.,Ltd
+00-24-54   (hex)		Samsung Electronics Co.,Ltd
+00-25-67   (hex)		Samsung Electronics Co.,Ltd
+00-26-37   (hex)		Samsung Electronics Co.,Ltd
+08-08-C2   (hex)		Samsung Electronics Co.,Ltd
+08-21-EF   (hex)		Samsung Electronics Co.,Ltd
+08-37-3D   (hex)		Samsung Electronics Co.,Ltd
+10-D5-42   (hex)		Samsung Electronics Co.,Ltd
+14-49-E0   (hex)		Samsung Electronics Co.,Ltd
+18-67-B0   (hex)		Samsung Electronics Co.,Ltd
+18-89-5B   (hex)		Samsung Electronics Co.,Ltd
+1C-5A-6B   (hex)		Samsung Electronics Co.,Ltd
+24-C6-96   (hex)		Samsung Electronics Co.,Ltd
+28-98-7B   (hex)		Samsung Electronics Co.,Ltd
+2C-AE-2B   (hex)		Samsung Electronics Co.,Ltd
+30-D6-C9   (hex)		Samsung Electronics Co.,Ltd
+34-23-BA   (hex)		Samsung Electronics Co.,Ltd
+FC-A1-3E   (hex)		Samsung Electronics Co.,Ltd
+F8-77-B8   (hex)		Samsung Electronics Co.,Ltd
+EC-1F-72   (hex)		Samsung Electronics Co.,Ltd
+18-3F-47   (hex)		Samsung Electronics Co.,Ltd
+2C-BA-BA   (hex)		Samsung Electronics Co.,Ltd
+00-1D-4F   (hex)		Xiaomi Communications Co Ltd
+00-9E-C8   (hex)		Xiaomi Communications Co Ltd
+04-CF-8C   (hex)		Xiaomi Communications Co Ltd
+0C-1D-AF   (hex)		Xiaomi Communications Co Ltd
+10-2A-B3   (hex)		Xiaomi Communications Co Ltd
+14-F6-5A   (hex)		Xiaomi Communications Co Ltd
+18-59-36   (hex)		Xiaomi Communications Co Ltd
+20-34-FB   (hex)		Xiaomi Communications Co Ltd
+28-6C-07   (hex)		Xiaomi Communications Co Ltd
+28-E3-1F   (hex)		Xiaomi Communications Co Ltd
+3C-BD-D8   (hex)		Xiaomi Communications Co Ltd
+50-64-2B   (hex)		Xiaomi Communications Co Ltd
+58-44-98   (hex)		Xiaomi Communications Co Ltd
+64-09-80   (hex)		Xiaomi Communications Co Ltd
+64-B4-73   (hex)		Xiaomi Communications Co Ltd
+68-DF-DD   (hex)		Xiaomi Communications Co Ltd
+74-23-44   (hex)		Xiaomi Communications Co Ltd
+7C-1D-D9   (hex)		Xiaomi Communications Co Ltd
+84-F3-EB   (hex)		Xiaomi Communications Co Ltd
+8C-BE-BE   (hex)		Xiaomi Communications Co Ltd
+34-80-B3   (hex)		Xiaomi Communications Co Ltd
+9C-99-A0   (hex)		Xiaomi Communications Co Ltd
+94-E9-79   (hex)		Huawei Technologies Co.,Ltd
+00-25-9E   (hex)		Huawei Technologies Co.,Ltd
+00-E0-FC   (hex)		Huawei Technologies Co.,Ltd
+04-02-1F   (hex)		Huawei Technologies Co.,Ltd
+04-25-C5   (hex)		Huawei Technologies Co.,Ltd
+04-BD-70   (hex)		Huawei Technologies Co.,Ltd
+04-C0-6F   (hex)		Huawei Technologies Co.,Ltd
+04-F9-38   (hex)		Huawei Technologies Co.,Ltd
+08-19-A6   (hex)		Huawei Technologies Co.,Ltd
+08-7A-4C   (hex)		Huawei Technologies Co.,Ltd
+0C-37-DC   (hex)		Huawei Technologies Co.,Ltd
+0C-96-BF   (hex)		Huawei Technologies Co.,Ltd
+10-1B-54   (hex)		Huawei Technologies Co.,Ltd
+10-47-80   (hex)		Huawei Technologies Co.,Ltd
+28-31-52   (hex)		Huawei Technologies Co.,Ltd
+00-15-99   (hex)		Samsung Electronics Co.,Ltd
+F0-B4-29   (hex)		Xiaomi Communications Co Ltd
+40-31-3C   (hex)		Xiaomi Communications Co Ltd
+50-8F-4C   (hex)		Xiaomi Communications Co Ltd
+74-DA-38   (hex)		Edimax Technology Co. Ltd.
+00-1F-1F   (hex)		Edimax Technology Co. Ltd.
+00-E0-B8   (hex)		GATEWAY, INC.
+00-A0-A4   (hex)		ACER INCORPORATED
+00-00-E2   (hex)		ACER INCORPORATED
+00-AA-00   (hex)		Intel Corporate
+00-02-B3   (hex)		Intel Corporate
+00-03-47   (hex)		Intel Corporate
+00-04-23   (hex)		Intel Corporate
+00-07-E9   (hex)		Intel Corporate
+00-0C-F1   (hex)		Intel Corporate
+00-0E-35   (hex)		Intel Corporate
+00-0E-0C   (hex)		Intel Corporate
+00-11-11   (hex)		Intel Corporate
+00-12-F0   (hex)		Intel Corporate
+00-13-02   (hex)		Intel Corporate
+00-13-20   (hex)		Intel Corporate
+00-13-CE   (hex)		Intel Corporate
+00-13-E8   (hex)		Intel Corporate
+00-15-00   (hex)		Intel Corporate
+00-15-17   (hex)		Intel Corporate
+00-16-6F   (hex)		Intel Corporate
+00-16-76   (hex)		Intel Corporate
+00-16-EA   (hex)		Intel Corporate
+00-16-EB   (hex)		Intel Corporate
+00-17-F2   (hex)		Apple, Inc.
+00-18-DE   (hex)		Intel Corporate
+00-19-D1   (hex)		Intel Corporate
+00-19-D2   (hex)		Intel Corporate
+00-1B-21   (hex)		Intel Corporate
+00-1B-77   (hex)		Intel Corporate
+00-1C-BF   (hex)		Intel Corporate
+00-1D-E0   (hex)		Intel Corporate
+00-1E-64   (hex)		Intel Corporate
+00-1E-65   (hex)		Intel Corporate
+00-1E-67   (hex)		Intel Corporate
+00-1F-3B   (hex)		Intel Corporate
+00-1F-3C   (hex)		Intel Corporate
+00-20-7B   (hex)		Intel Corporate
+00-21-5C   (hex)		Intel Corporate
+00-21-5D   (hex)		Intel Corporate
+00-21-6A   (hex)		Intel Corporate
+00-21-6B   (hex)		Intel Corporate
+00-22-FA   (hex)		Intel Corporate
+00-22-FB   (hex)		Intel Corporate
+00-23-14   (hex)		Intel Corporate
+00-23-15   (hex)		Intel Corporate
+00-24-D6   (hex)		Intel Corporate
+00-24-D7   (hex)		Intel Corporate
+00-26-C6   (hex)		Intel Corporate
+00-26-C7   (hex)		Intel Corporate
+00-27-10   (hex)		Intel Corporate
+10-0B-A9   (hex)		Intel Corporate
+24-77-03   (hex)		Intel Corporate
+28-B2-BD   (hex)		Intel Corporate
+34-02-86   (hex)		Intel Corporate
+3C-97-0E   (hex)		Intel Corporate
+40-25-C2   (hex)		Intel Corporate
+48-51-B7   (hex)		Intel Corporate
+4C-34-88   (hex)		Intel Corporate
+50-2D-A2   (hex)		Intel Corporate
+50-E5-49   (hex)		Intel Corporate
+58-91-CF   (hex)		Intel Corporate
+5C-51-4F   (hex)		Intel Corporate
+5C-C5-D4   (hex)		Intel Corporate
+64-80-99   (hex)		Intel Corporate
+68-05-CA   (hex)		Intel Corporate
+68-17-29   (hex)		Intel Corporate
+6C-88-14   (hex)		Intel Corporate
+70-1C-E7   (hex)		Intel Corporate
+74-E5-0B   (hex)		Intel Corporate
+78-0C-B8   (hex)		Intel Corporate
+78-92-9C   (hex)		Intel Corporate
+78-FF-57   (hex)		Intel Corporate
+7C-5C-F8   (hex)		Intel Corporate
+80-00-0B   (hex)		Intel Corporate
+80-86-F2   (hex)		Intel Corporate
+84-3A-4B   (hex)		Intel Corporate
+84-A6-C8   (hex)		Intel Corporate
+88-53-2E   (hex)		Intel Corporate
+8C-70-5A   (hex)		Intel Corporate
+94-65-9C   (hex)		Intel Corporate
+98-4F-EE   (hex)		Intel Corporate
+9C-4E-36   (hex)		Intel Corporate
+A0-36-9F   (hex)		Intel Corporate
+A0-88-69   (hex)		Intel Corporate
+A4-34-D9   (hex)		Intel Corporate
+A4-4E-31   (hex)		Intel Corporate
+A4-C4-94   (hex)		Intel Corporate
+AC-7B-A1   (hex)		Intel Corporate
+B4-6B-FC   (hex)		Intel Corporate
+B4-B6-76   (hex)		Intel Corporate
+B8-08-CF   (hex)		Intel Corporate
+C4-8E-8F   (hex)		Intel Corporate
+C8-5B-76   (hex)		Intel Corporate
+CC-3D-82   (hex)		Intel Corporate
+D0-AB-D5   (hex)		Intel Corporate
+D4-3D-7E   (hex)		Intel Corporate
+D8-50-E6   (hex)		Intel Corporate
+DC-53-60   (hex)		Intel Corporate
+E0-94-67   (hex)		Intel Corporate
+E4-A4-71   (hex)		Intel Corporate
+E8-B1-FC   (hex)		Intel Corporate
+EC-0E-C4   (hex)		Intel Corporate
+F0-1F-AF   (hex)		Intel Corporate
+F4-06-69   (hex)		Intel Corporate
+F8-16-54   (hex)		Intel Corporate
+F8-63-3F   (hex)		Intel Corporate
+FC-F8-AE   (hex)		Intel Corporate
+F8-94-C2   (hex)		Intel Corporate
+AC-FD-CE   (hex)		Amazon Technologies Inc.
+00-FC-8B   (hex)		Amazon Technologies Inc.
+10-CE-A9   (hex)		Amazon Technologies Inc.
+18-74-2E   (hex)		Amazon Technologies Inc.
+34-D2-70   (hex)		Amazon Technologies Inc.
+40-B4-CD   (hex)		Amazon Technologies Inc.
+44-65-0D   (hex)		Amazon Technologies Inc.
+50-DC-E7   (hex)		Amazon Technologies Inc.
+68-37-E9   (hex)		Amazon Technologies Inc.
+68-54-FD   (hex)		Amazon Technologies Inc.
+74-C2-46   (hex)		Amazon Technologies Inc.
+78-E1-03   (hex)		Amazon Technologies Inc.
+84-D6-D0   (hex)		Amazon Technologies Inc.
+A0-02-DC   (hex)		Amazon Technologies Inc.
+B4-7C-9C   (hex)		Amazon Technologies Inc.
+CC-F7-35   (hex)		Amazon Technologies Inc.
+F0-27-2D   (hex)		Amazon Technologies Inc.
+F0-81-73   (hex)		Amazon Technologies Inc.
+F0-D2-F1   (hex)		Amazon Technologies Inc.
+FC-65-DE   (hex)		Amazon Technologies Inc.
+FE-DC-BA   (hex)		Amazon Technologies Inc.
+18-B4-30   (hex)		Nest Labs Inc.
+64-16-66   (hex)		Nest Labs Inc.
+D8-EB-46   (hex)		Google, Inc.
+F4-F5-D8   (hex)		Google, Inc.
+54-60-09   (hex)		Google, Inc.
+94-EB-2C   (hex)		Google, Inc.
+F4-F5-E8   (hex)		Google, Inc.
+F8-8F-CA   (hex)		Google, Inc.
+00-1A-11   (hex)		Google, Inc.
+3C-5A-B4   (hex)		Google, Inc.
+58-CB-52   (hex)		Google, Inc.
+78-4F-43   (hex)		Google, Inc.
+A4-77-33   (hex)		Google, Inc.
+AC-BC-32   (hex)		Espressif Inc.
+24-6F-28   (hex)		Espressif Inc.
+24-0A-C4   (hex)		Espressif Inc.
+24-62-AB   (hex)		Espressif Inc.
+2C-F4-32   (hex)		Espressif Inc.
+30-AE-A4   (hex)		Espressif Inc.
+3C-71-BF   (hex)		Espressif Inc.
+40-F5-20   (hex)		Espressif Inc.
+4C-11-AE   (hex)		Espressif Inc.
+4C-EB-D6   (hex)		Espressif Inc.
+54-5A-A6   (hex)		Espressif Inc.
+5C-CF-7F   (hex)		Espressif Inc.
+60-01-94   (hex)		Espressif Inc.
+68-C6-3A   (hex)		Espressif Inc.
+70-03-9F   (hex)		Espressif Inc.
+80-7D-3A   (hex)		Espressif Inc.
+84-0D-8E   (hex)		Espressif Inc.
+84-CC-A8   (hex)		Espressif Inc.
+84-F3-EB   (hex)		Espressif Inc.
+8C-AA-B5   (hex)		Espressif Inc.
+90-97-D5   (hex)		Espressif Inc.
+94-B5-55   (hex)		Espressif Inc.
+94-B9-7E   (hex)		Espressif Inc.
+98-F4-AB   (hex)		Espressif Inc.
+A0-20-A6   (hex)		Espressif Inc.
+A4-7B-9D   (hex)		Espressif Inc.
+A4-CF-12   (hex)		Espressif Inc.
+A8-48-FA   (hex)		Espressif Inc.
+AC-67-B2   (hex)		Espressif Inc.
+B4-8A-0A   (hex)		Espressif Inc.
+B4-E6-2D   (hex)		Espressif Inc.
+BC-DD-C2   (hex)		Espressif Inc.
+C4-4F-33   (hex)		Espressif Inc.
+C4-5B-BE   (hex)		Espressif Inc.
+C8-2B-96   (hex)		Espressif Inc.
+CC-50-E3   (hex)		Espressif Inc.
+D8-A0-1D   (hex)		Espressif Inc.
+D8-BF-C0   (hex)		Espressif Inc.
+DC-4F-22   (hex)		Espressif Inc.
+E0-98-06   (hex)		Espressif Inc.
+EC-FA-BC   (hex)		Espressif Inc.
+F0-08-D1   (hex)		Espressif Inc.
+F4-CF-A2   (hex)		Espressif Inc.
+08-3A-F2   (hex)		Espressif Inc.
+48-3F-DA   (hex)		Espressif Inc.
+7C-87-CE   (hex)		Espressif Inc.
+34-94-54   (hex)		Espressif Inc.
+48-55-19   (hex)		Espressif Inc.
+78-21-84   (hex)		Espressif Inc.
+58-BF-25   (hex)		Espressif Inc.
+00-17-9A   (hex)		D-Link Corporation
+00-19-5B   (hex)		D-Link Corporation
+00-1B-11   (hex)		D-Link Corporation
+00-1C-F0   (hex)		D-Link Corporation
+00-22-B0   (hex)		D-Link Corporation
+00-24-01   (hex)		D-Link Corporation
+00-26-5A   (hex)		D-Link Corporation
+00-05-5D   (hex)		D-Link Corporation
+00-50-BA   (hex)		D-Link Corporation
+1C-7E-E5   (hex)		D-Link Corporation
+28-10-7B   (hex)		D-Link Corporation
+34-08-04   (hex)		D-Link Corporation
+78-54-2E   (hex)		D-Link Corporation
+84-C9-B2   (hex)		D-Link Corporation
+90-94-E4   (hex)		D-Link Corporation
+9C-D6-43   (hex)		D-Link Corporation
+B8-A3-86   (hex)		D-Link Corporation
+BC-F6-85   (hex)		D-Link Corporation
+C8-BE-19   (hex)		D-Link Corporation
+C8-D3-A3   (hex)		D-Link Corporation
+CC-B2-55   (hex)		D-Link Corporation
+E4-6F-13   (hex)		D-Link Corporation
+F0-7D-68   (hex)		D-Link Corporation
+FC-75-16   (hex)		D-Link Corporation
+00-0F-3D   (hex)		D-Link Corporation
+00-1E-58   (hex)		D-Link Corporation
+00-18-E7   (hex)		Cameo Communications, Inc.
+00-60-B3   (hex)		Z-COM, Inc.
+00-02-72   (hex)		CC&C Technologies, Inc.
+10-6F-3F   (hex)		BUFFALO.INC
+20-89-84   (hex)		Comcast Cable Corporation
+3C-36-E4   (hex)		ARRIS Group, Inc.
+00-00-CA   (hex)		ARRIS Group, Inc.
+00-15-96   (hex)		ARRIS Group, Inc.
+00-15-A2   (hex)		ARRIS Group, Inc.
+00-15-A3   (hex)		ARRIS Group, Inc.
+00-15-A4   (hex)		ARRIS Group, Inc.
+00-15-A5   (hex)		ARRIS Group, Inc.
+00-15-CE   (hex)		ARRIS Group, Inc.
+00-15-CF   (hex)		ARRIS Group, Inc.
+00-15-D0   (hex)		ARRIS Group, Inc.
+00-15-D1   (hex)		ARRIS Group, Inc.
+00-1A-1B   (hex)		ARRIS Group, Inc.
+00-1A-66   (hex)		ARRIS Group, Inc.
+00-1A-77   (hex)		ARRIS Group, Inc.
+00-1D-6B   (hex)		ARRIS Group, Inc.
+00-1D-CD   (hex)		ARRIS Group, Inc.
+00-1D-CE   (hex)		ARRIS Group, Inc.
+00-1D-CF   (hex)		ARRIS Group, Inc.
+00-1D-D0   (hex)		ARRIS Group, Inc.
+00-1D-D1   (hex)		ARRIS Group, Inc.
+00-1D-D2   (hex)		ARRIS Group, Inc.
+00-1D-D3   (hex)		ARRIS Group, Inc.
+00-1D-D4   (hex)		ARRIS Group, Inc.
+00-1D-D5   (hex)		ARRIS Group, Inc.
+00-14-E8   (hex)		ARRIS Group, Inc.
+00-03-0D   (hex)		Uniwill Computer Corp.
+00-17-C4   (hex)		Quanta Microsystems, Inc.
+00-24-2C   (hex)		Hon Hai Precision Ind. Co., Ltd.
+00-26-22   (hex)		Compal Electronics, Inc.
+00-1E-68   (hex)		Quanta Computer
+00-23-8B   (hex)		Quanta Computer
+F4-B7-E2   (hex)		Hon Hai Precision Ind. Co., Ltd.
+F8-0F-41   (hex)		Wistron InfoComm (Zhongshan) Corporation
+90-00-4E   (hex)		Hon Hai Precision Ind. Co., Ltd.
+60-45-BD   (hex)		Microsoft Corporation
+7C-1E-52   (hex)		Microsoft Corporation
+7C-ED-8D   (hex)		Microsoft Corporation
+28-18-78   (hex)		Microsoft Corporation
+30-59-B7   (hex)		Microsoft Corporation
+3C-83-75   (hex)		Microsoft Corporation
+50-1A-C5   (hex)		Microsoft Corporation
+58-82-A8   (hex)		Microsoft Corporation
+5C-BA-37   (hex)		Microsoft Corporation
+60-C5-47   (hex)		Microsoft Corporation
+74-E6-E2   (hex)		Microsoft Corporation
+7C-4F-7C   (hex)		Microsoft Corporation
+84-EF-18   (hex)		Intel Corporate
+B4-09-31   (hex)		Microsoft Corporation
+B8-8A-60   (hex)		Intel Corporate
+C8-E0-EB   (hex)		Microsoft Corporation
+DC-B4-C4   (hex)		Microsoft Corporation
+00-0D-3A   (hex)		Microsoft Corporation
+00-12-5A   (hex)		Microsoft Corporation
+00-17-FA   (hex)		Microsoft Corporation
+00-1D-D8   (hex)		Microsoft Corporation
+00-22-48   (hex)		Microsoft Corporation
+00-25-AE   (hex)		Microsoft Corporation
+00-50-F2   (hex)		Microsoft Corporation
+C4-9D-ED   (hex)		Microsoft Corporation

@@ -2,11 +2,11 @@ import { motion } from 'framer-motion';
 import { RadarCanvas } from '../Radar';
 import { DeviceList } from '../DeviceList';
 import { useNetworkData } from '../../hooks/useNetworkData';
-import { RefreshCw, Settings, Activity, Wifi, Clock, Zap } from 'lucide-react';
+import { RefreshCw, Settings, Activity, Wifi, WifiOff, Clock, Zap } from 'lucide-react';
 import './Dashboard.css';
 
 export default function Dashboard() {
-  const { devices, scanResult, isScanning, selectedDevice, setSelectedDevice, performScan } = useNetworkData(10000);
+  const { devices, scanResult, isScanning, isConnected, selectedDevice, setSelectedDevice, performScan } = useNetworkData();
 
   const formatTime = (date: Date) => date.toLocaleTimeString('pt-BR', { 
     hour: '2-digit', minute: '2-digit', second: '2-digit' 
@@ -49,7 +49,7 @@ export default function Dashboard() {
           <motion.button
             className="action-btn primary"
             onClick={performScan}
-            disabled={isScanning}
+            disabled={isScanning || !isConnected}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
@@ -85,9 +85,18 @@ export default function Dashboard() {
 
       <footer className="dashboard-footer">
         <div className="footer-left">
-          <span className="connection-status">
-            <span className="status-indicator online" />
-            Conectado à rede local
+          <span className={`connection-status ${isConnected ? '' : 'disconnected'}`}>
+            {isConnected ? (
+              <>
+                <span className="status-indicator online" />
+                Conectado ao servidor
+              </>
+            ) : (
+              <>
+                <WifiOff size={14} />
+                Reconectando...
+              </>
+            )}
           </span>
         </div>
         <div className="footer-right">

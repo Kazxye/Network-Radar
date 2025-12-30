@@ -208,6 +208,10 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
+.connection-status.disconnected {
+  color: #ff4757;
+}
+
 .status-indicator {
   width: 8px;
   height: 8px;
